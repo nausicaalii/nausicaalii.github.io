@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElpisEarth — Airbnb for the Land</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 6C20 6 10 16 10 24C10 28 14 32 20 34C26 32 30 28 30 24C30 16 20 6 20 6Z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M20 14V28M16 20C16 20 18 22 20 22C22 22 24 20 24 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        ElpisEarth
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#join" class="btn btn-sm">Join Waitlist</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="badge">The Future of Land Stewardship</span>
+      <h1>Share the Land.<br>Grow Together.</h1>
+      <p class="hero-sub">ElpisEarth connects landowners with skilled regenerative farmers. Your land gets nurtured. Farmers get to grow. Communities get fed.</p>
+      <div class="hero-actions">
+        <a href="#join" class="btn btn-primary btn-lg">Join the Waitlist</a>
+        <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>2.4B</strong>
+          <span>acres of degraded farmland worldwide</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>70%</strong>
+          <span>of new farmers lack access to land</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>1 platform</strong>
+          <span>to change that</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- Problem / Opportunity -->
+  <section class="section section-problem">
+    <div class="container">
+      <div class="section-label">The Opportunity</div>
+      <div class="split">
+        <div class="split-text">
+          <h2>The land raised us. It's time we return the favor.</h2>
+          <p>Millions of acres sit idle or degraded while a new generation of regenerative farmers searches for land to steward. Landowners want their property cared for but lack the time or expertise. ElpisEarth bridges this gap &mdash; turning unused land into thriving, regenerative ecosystems.</p>
+        </div>
+        <div class="split-visual">
+          <div class="visual-card card-land">
+            <div class="visual-icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M6 36h36M10 36V24l8-8 6 6 8-8 6 6v16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="12" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h4>Idle Land</h4>
+            <p>Landowners with unused acres seeking responsible stewards</p>
+          </div>
+          <div class="visual-connector">
+            <svg viewBox="0 0 60 24"><path d="M0 12h60M50 4l8 8-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="visual-card card-farmer">
+            <div class="visual-icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 4v8M8 18h32M14 18c0 12 4 22 10 26 6-4 10-14 10-26" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 28c2-2 6-2 8 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Skilled Farmers</h4>
+            <p>Regenerative agriculture experts ready to nurture the earth</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section section-how" id="how-it-works">
+    <div class="container">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title">Three steps to regeneration</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="20" r="10" stroke="currentColor" stroke-width="2"/><path d="M16 52c0-10 7-18 16-18s16 8 16 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M38 16l6-4M40 22h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Join the Community</h3>
+          <p>Farmers create a profile showcasing their regenerative expertise, experience, specialties, and what kind of land they're looking for.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="2"/><circle cx="40" cy="40" r="12" stroke="currentColor" stroke-width="2"/><path d="M32 28c-2 4-2 8 0 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Get Matched to Land</h3>
+          <p>We match you with available land based on soil type, size, water access, and host preferences &mdash; so you find the right fit for your practice.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M32 8v12M22 14l10 6 10-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 20c-14 6-20 16-18 28h36c2-12-4-22-18-28z" stroke="currentColor" stroke-width="2"/><path d="M26 38c2-4 4-6 6-6s4 2 6 6M24 48c2-6 5-10 8-10s6 4 8 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Grow Together</h3>
+          <p>Farmers nurture the land using regenerative practices. Landowners earn rental income. The community reaps fresh, local food. Everyone wins.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Whom -->
+  <section class="section section-for">
+    <div class="container">
+      <div class="columns-2">
+        <div class="card card-host">
+          <div class="card-label">For Land Hosts</div>
+          <h3>Your land, lovingly cared for</h3>
+          <ul class="check-list">
+            <li>Earn passive income from unused acreage</li>
+            <li>Watch your soil health improve year over year</li>
+            <li>Choose farmers whose vision aligns with yours</li>
+            <li>Full transparency with progress reports and soil data</li>
+            <li>Flexible lease terms that work for you</li>
+          </ul>
+          <a href="#join" class="btn btn-primary">List Your Land</a>
+        </div>
+        <div class="card card-farmer-cta">
+          <div class="card-label">For Regenerative Farmers</div>
+          <h3>Land to practice your craft</h3>
+          <ul class="check-list">
+            <li>Access affordable, quality farmland</li>
+            <li>Keep the harvest you grow</li>
+            <li>Build your reputation in the community</li>
+            <li>Connect with mentors and fellow practitioners</li>
+            <li>Tools and resources to plan your season</li>
+          </ul>
+          <a href="#join" class="btn btn-primary">Find Land</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section class="section section-community" id="community">
+    <div class="container">
+      <div class="section-label">Community</div>
+      <h2 class="section-title">More than a marketplace.<br>A movement.</h2>
+      <p class="section-sub">ElpisEarth is building a community of people who believe the future of food starts with the health of our soil.</p>
+      <div class="community-grid">
+        <div class="community-card">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 40V24l16-16 16 16v16H8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M18 40V30h12v10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Local Chapters</h4>
+          <p>Join gatherings in your area to share knowledge, swap seeds, and celebrate the harvest together.</p>
+        </div>
+        <div class="community-card">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 38c4-8 10-14 18-14s14 6 18 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Mentorship</h4>
+          <p>Experienced regenerative farmers guide newcomers through their first seasons on the land.</p>
+        </div>
+        <div class="community-card">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2"/><path d="M6 18h36M18 18v24" stroke="currentColor" stroke-width="2"/><path d="M28 28h8M28 34h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Knowledge Hub</h4>
+          <p>Articles, workshops, and soil science resources to deepen your regenerative practice.</p>
+        </div>
+        <div class="community-card">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z" stroke="currentColor" stroke-width="2"/><path d="M4 24h40M24 4c-6 6-10 12-10 20s4 14 10 20c6-6 10-12 10-20S30 10 24 4z" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h4>Global Network</h4>
+          <p>Connect with regenerative practitioners worldwide. Share what works across climates and cultures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="section section-mission" id="mission">
+    <div class="container">
+      <div class="mission-block">
+        <div class="section-label">Our Mission</div>
+        <h2>The land has raised generations.<br>Now science helps us nurture it back.</h2>
+        <div class="mission-text">
+          <p>Regenerative farming isn't just agriculture &mdash; it's a relationship. For millennia, the land fed us, sheltered us, and shaped our communities. Industrial farming broke that bond, degrading the very soil that sustains life.</p>
+          <p>ElpisEarth exists to restore it. By connecting idle land with skilled stewards, we're proving that profitability and planet health aren't opposites &mdash; they're partners. Every acre regenerated sequesters carbon, builds biodiversity, and produces nutrient-dense food.</p>
+          <p>We leverage modern soil science, community wisdom, and technology to make regenerative farming accessible to everyone &mdash; whether you own 5 acres or 5,000.</p>
+        </div>
+        <div class="mission-values">
+          <div class="value">
+            <strong>Soil First</strong>
+            <span>Healthy soil is the foundation of everything we do</span>
+          </div>
+          <div class="value">
+            <strong>Access for All</strong>
+            <span>Land should be available to those who will care for it</span>
+          </div>
+          <div class="value">
+            <strong>Science + Tradition</strong>
+            <span>Blending ancestral knowledge with modern research</span>
+          </div>
+          <div class="value">
+            <strong>Community Rooted</strong>
+            <span>Local connections create lasting change</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Social Proof -->
+  <section class="section section-proof">
+    <div class="container">
+      <div class="section-label">Early Voices</div>
+      <div class="testimonials">
+        <blockquote class="testimonial">
+          <p>"I've had 40 acres sitting unused since my father passed. The idea that someone could bring it back to life &mdash; and I'd be part of that &mdash; that's what got me."</p>
+          <cite>
+            <strong>Margaret K.</strong>
+            <span>Landowner, Oregon</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Land access is the number one barrier for young regenerative farmers. A platform that solves this could change the entire movement."</p>
+          <cite>
+            <strong>David R.</strong>
+            <span>Regenerative Agriculture Educator</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"I want to farm, not fight over real estate. ElpisEarth lets me focus on what I'm good at &mdash; healing soil and growing food."</p>
+          <cite>
+            <strong>Aisha T.</strong>
+            <span>Aspiring Farmer, Georgia</span>
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Waitlist -->
+  <section class="section section-cta" id="join">
+    <div class="container">
+      <div class="cta-block">
+        <h2>Be part of the first harvest.</h2>
+        <p>ElpisEarth is launching soon. Join the waitlist to get early access and help shape the future of land sharing.</p>
+        <form class="waitlist-form" id="waitlist-form" action="https://formspree.io/f/xgopywnv" method="POST">
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Your email address" required aria-label="Email address">
+            <select name="role" aria-label="I am a..." required>
+              <option value="" disabled selected>I am a...</option>
+              <option value="landowner">Landowner</option>
+              <option value="farmer">Farmer / Grower</option>
+              <option value="curious">Curious Community Member</option>
+            </select>
+            <button type="submit" class="btn btn-primary btn-lg">Join Waitlist</button>
+          </div>
+          <p class="form-note">No spam. Just updates on our launch and early access invites.</p>
+        </form>
+        <div class="waitlist-success" id="waitlist-success" hidden>
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M14 24l8 8 12-14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <p>You're on the list! We'll be in touch soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 6C20 6 10 16 10 24C10 28 14 32 20 34C26 32 30 28 30 24C30 16 20 6 20 6Z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M20 14V28M16 20C16 20 18 22 20 22C22 22 24 20 24 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          ElpisEarth
+        </a>
+        <p>Matching land with the hands that heal it.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Platform</h5>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#join">Join Waitlist</a>
+        </div>
+        <div class="footer-col">
+          <h5>Community</h5>
+          <a href="#community">Local Chapters</a>
+          <a href="#community">Knowledge Hub</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="#mission">Our Mission</a>
+          <a href="mailto:hello@Elpis.earth">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 ElpisEarth. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
